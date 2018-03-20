@@ -19,20 +19,29 @@
 
 <body>
 
-    <div class="resourcesContainer">
-        s
+    <div class="resourcesContainer border">
+        
+        <div id="wood" class="resource">
+            <p id="woodName" class="resourceName">Wood</p>
+            <p id="woodAmount" class="resourceAmount">woodAmount</p>
+            <p id="woodMaxAmount" class="resourceMaxAmount">woodmax</p>
+            <p id="woodPerSec" class="resourcePerSec">wood/s</p>
+        </div>
+
+        <div id="wood" class="resource">
+            <p id="woodName" class="resourceName">Wood</p>
+            <p id="woodAmount" class="resourceAmount">woodAmount</p>
+            <p id="woodMaxAmount" class="resourceMaxAmount">woodmax</p>
+            <p id="woodPerSec" class="resourcePerSec">wood/s</p>
+        </div>
+
     </div>
 
-    <div id="wood" class="resource border">
-        <p id="woodName" class="resourceText">Wood</p>
-        <p id="woodAmount" class="resourceText">woodAmount</p>
-        <p id="woodMaxAmount" class="resourceText">woodmax</p>
-        <p id="woodPerSec" class="resourceText">wood/s</p>
+    <div class="middleContainer border">
+        <button id="house" class="btn" onclick="clickBuilding('house')">House</button>
+        <button id="test" class="btn" onclick="clickBuilding('test')">test</button>
     </div>
-    
 
-    <button id="house" class="btn" onclick="clickBuilding('house')">House</button>
-    <button id="test" class="btn" onclick="clickBuilding('test')">test</button>
 </body>
 
 
